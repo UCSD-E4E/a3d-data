@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "a3d-data"
+version = "0.1.0"
+description = ""
+authors = ["Christopher L. Crutchfield <ccrutchf@ucsd.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.0"
+pillow = "^11.0.0"
+tqdm = "^4.67.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+pylint = "^3.2.0"
+
+[tool.poetry.scripts]
+fsl = "a3d_data.run:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
