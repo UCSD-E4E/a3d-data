@@ -11,6 +11,8 @@ numpy = "^2.2.0"
 pillow = "^11.0.0"
 tqdm = "^4.67.1"
 opencv-python = "^4.10.0.84"
+scikit-learn = "^1.6.0"
+matplotlib = "^3.10.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.3.0"
